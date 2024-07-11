@@ -1,0 +1,43 @@
+.position {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    z-index: 2;
+    display: none;
+}
+
+.container {
+    width: 220px;
+    height: auto;
+    border: 1px solid black;
+    background: #6c757d;
+}
+
+.container p {
+    height: 30px;
+    font-size: 18px;
+    font-family: arial;
+    width: 99%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(245, 243, 243);
+    color: black;
+    transition: 0.2s;
+}
+
+.container p:hover {
+    background: lightblue;
+}
+
+td {
+    font-family: arial;
+    font-size: 20px;
+}
+
+td:hover {
+    background: lightblue;
+    transition: 0.2s;
+    cursor: pointer;
+}

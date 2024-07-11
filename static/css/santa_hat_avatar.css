@@ -1,0 +1,18 @@
+.avatar {
+    position: relative;
+
+    color: #ff0000; /* Red text color */
+}
+
+.avatar::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 42%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 40px;
+    background-image: url('santa-hat-17244.png'); /* Placeholder link for Santa hat */
+    background-size: cover;
+}
+

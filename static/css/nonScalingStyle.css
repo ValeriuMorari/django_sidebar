@@ -1,0 +1,75 @@
+html, body{
+  overflow: auto;
+}
+
+tr.level1 {
+	line-height: 2.2;
+}
+
+.table-sm td, .table-sm th {
+    padding: 0;
+}
+table thead td a, table tbody th a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+table .footer td a, table .footer th a{
+	display: contents;
+}
+.table-dark {
+    background-color: transparent;
+}
+table.table > thead > tr > th, table.table > tbody > tr > th{
+	border-width: 0;
+}
+table.table-dark > thead > tr > th{
+	border-right: 4px solid #000;
+}
+table.table-dark > thead > tr > th:last-child, tr.level1 td:last-child, tr.level2 td:last-child, tr.steps td:last-child{
+	border-right: none;
+}
+.steps td, .level1 td, .level2 td{
+	border-right: 1px solid #fff;
+	padding: 0 3px;
+	border-top: none;
+}
+.steps td {
+	border-bottom: 2px solid #fff;
+	font-size: 20px;
+}
+.title{
+	font-size: 23px;
+	font-weight: 700;
+}
+.date{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+}
+.level1{
+	font-size: 18px;
+}
+.level2{
+	font-size: 14px;
+}
+tr.empty{
+	height: 10px;
+}
+.table {
+	margin-bottom: 0;
+}
+.date th:hover a, .title th:hover a{
+	background-color: #303030;
+	cursor:pointer;
+}
+.level1 td.link:hover, .level2 td:hover {
+	opacity: 0.8;
+	cursor:pointer;
+}
+.subtitle th{
+	font-weight: 300;
+}
+.subtitle {
+	height: auto;
+}

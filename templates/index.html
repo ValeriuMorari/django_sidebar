@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Django Website</title>
+    <!-- CSS Files -->
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/css/atlantis.css">
+	<link rel="stylesheet" href="/static/css/custom.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to My Django Website</h1>
+    <div class="sidebar sidebar-style-2" data-background-color="dark2">
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+            <div class="sidebar-content">
+                {% for item in sidebar %}
+                        {{ item }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <h2>Main Content</h2>
+    <p>This is the main content area of the homepage.</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Django Website. Valeriu Morari.</p>
+</footer>
+</body>
+
+</html>
